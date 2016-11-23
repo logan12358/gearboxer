@@ -1,16 +1,9 @@
 # changewheels
 
-> Change Wheel Calculator
+[![Build Status](https://travis-ci.org/logan12358/gearboxer.svg?branch=master)](https://travis-ci.org/logan12358/gearboxer)
+[![Code Climate](https://codeclimate.com/github/logan12358/gearboxer/badges/gpa.svg)](https://codeclimate.com/github/logan12358/gearboxer)
 
-Calculates conversions through linkages.
-
-## Model
-
-A system is composed of nodes connected by links.
-A link constrains the ratio between two nodes.
-A link may offer several values to be chosen between...
-
-(gear links may have combined pools of gears to choose from)
+Calculates parameters for gearboxes.
 
 ## Build Setup
 
@@ -36,6 +29,16 @@ npm test
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+## Model (yet to be properly implemented)
+
+A system is composed of nodes connected by links.
+A link constrains the ratio between two nodes.
+A link may offer several values to be chosen between...
+
+(gear links may have combined pools of gears to choose from)
+
+## Example Configuration
+
 We have the Norton gearbox levers with ratios:
 * A: 1
 * B: 2
@@ -53,5 +56,5 @@ And the Norton gearbox slide with ratios:
 * 8: 2.25
 * 9: 2
 
-And a pool of gears: 40, 50, 50, 50, 53, 59, 60, 63, 66, 73, 81, 100, 127
+And a pool of gears: 40, 50, 50, 50, 53, 59, 60, 63, 66, 73, 81, 100, 100, 127
 
