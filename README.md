@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/logan12358/gearboxer.svg?branch=master)](https://travis-ci.org/logan12358/gearboxer)
 [![Code Climate](https://codeclimate.com/github/logan12358/gearboxer/badges/gpa.svg)](https://codeclimate.com/github/logan12358/gearboxer)
+[![Test Coverage](https://codeclimate.com/github/logan12358/gearboxer/badges/coverage.svg)](https://codeclimate.com/github/logan12358/gearboxer/coverage)
 
 Calculates parameters for gearboxes.
 
