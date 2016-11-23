@@ -1,3 +1,8 @@
 language: node_js
 node_js:
-  - "node"
+- node
+addons:
+  sauce_connect:
+    username: logan12358
+  jwt:
+    secure: KPIg+7KP+KKx9/hqJ2ZCqA58fjlAQ8z3Tsa+n0B/vow49UlXuMxSysJ6q4y1eI5qXX02Df7IgKlPfH17ijzPXN8D/ULdD7Jq58vFuGbllO/u2ghf35dMuIUma7MwSEhkg+0QJRuxPSGN8lDUlxQGIRIDRr72ge5Odsjl66AfWcT99hXPn8ASsq5NkM7eVRYa4orVxoY7NzS75c8nn04yD42+F+ZYDZsNEpoL7eQIoqMidU3IAkJJdVM7z2qkmSKLIAIDp0ByWEbX5vs2ZmaLFy/HYCd0K6a3a1Tr/i0Bot0IDxGvm1fXAPdvLDAvf0Wrrc/VPb2JqXwspnZUr7UxMOI9EMc4M7uTSIJkusbx+zKFhMo+HkFJAhQQn8ok8/WkU/yiJ5ZYdRyF31acl0ST/exNtcabdk73f71MpOhReV6D01GgDPj97Q0FQ1stg9K8RODKqK5EnNUGtOo2sbDzfDE8FWDOF0SNFPkM6uTQL0V1HFGdkujQj0ZWliHXunHyCWy4r5RZf6sIfrC/JOfB07nWjRVG6jqUHfLN7P9W7swSo3gWErmRNbdcD/mlvO5GMkbOZeFc10bplfj/msk7WzTri3DJVmXCO5zNsn6G2tSZ55Lgql3LZM7PUTO/p0QRuYcdkd+4i+Kn37exTZoGbOPJiqcpo2FRukokwP+OBLM=
